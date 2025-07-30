@@ -128,7 +128,6 @@ h4 {
     margin-bottom: 2rem;
 }
 
-
 /* Skills */
 #skills {
     margin-top: 3rem;
@@ -149,64 +148,58 @@ h4 {
 .skillss-container {
     width: 100%;
 }
-.java {
-    width: 90%;
-    height: .5rem;
-    background-color: #e54c21;
+
+.python {
+    width: 80%;
+    height: 0.5rem;
+    background-color: #7952b3; /* Purple */
     margin: 1rem 0;
     border-radius: 12px;
 }
 
 .html {
-    width: 90%;
-    height: .5rem;
-    background-color:  #00a0e4;
+    width: 80%;
+    height: 0.5rem;
+    background-color: #00a0e4; /* Blue */
     margin: 1rem 0;
     border-radius: 12px;
 }
 
 .css {
-    width: 80%;
-    height: .5rem;
-    background-color:yellow;
+    width: 50%; /* Updated to 50% */
+    height: 0.5rem;
+    background-color: yellow; /* Yellow */
     margin: 1rem 0;
     border-radius: 12px;
 }
 
-.js {
-    width: 65%;
-    height: .5rem;
-    background-color:red;
-    margin: 1rem 0;
-    border-radius: 12px;
-}
-
-.python {
-    width: 50%;
-    height: .5rem;
-    background-color: #7952b3;
+.django {
+    width: 70%; /* Updated to 70% */
+    height: 0.5rem;
+    background-color: #f1c40f; /* Yellow-Orange */
     margin: 1rem 0;
     border-radius: 12px;
 }
 
 .mysql {
-    width: 30%;
-    height: .5rem;
-    background-color: #61dafb;
+    width: 60%; /* Updated to 60% */
+    height: 0.5rem;
+    background-color: #61dafb; /* Light Blue */
     margin: 1rem 0;
     border-radius: 12px;
 }
 
-.learning {
-    width: 100%;
-    height: .5rem;
-    background-color: #61dbfb;
+.powerbi-excel {
+    width: 75%; /* Updated to 75% for Power BI & Excel */
+    height: 0.5rem;
+    background-color: #1abc9c; /* Cyan */
     margin: 1rem 0;
     border-radius: 12px;
 }
 
 .bar {
     margin: 2rem 0;
+    position: relative;
 }
 
 .bar-content {
@@ -221,10 +214,6 @@ h4 {
 .right-skills {
     right: 0;
 }
-
-
-
-
 
 /* Projects Section */
 .projects-container {
