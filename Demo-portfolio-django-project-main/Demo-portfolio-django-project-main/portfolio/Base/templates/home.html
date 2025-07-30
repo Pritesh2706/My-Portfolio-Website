@@ -33,26 +33,23 @@
 
         
 
-    <!-- Home Section -->
+   <!-- Home Section -->
     <section id="home" class="flex s-around sw-80 m-auto">
         <div class="home-left flex items-center">
             <div class="home-content">
                 <h6 class="poppinss">Hi, I'm</h6>
-                <h1 class="t-white">Avanish Patidar</h1>
-                <h4 class="poppinss">Software Engineer</h4>
-                <a href="{% static 'pdf/django.pdf' %}"  target="_blank">
+                <h1 class="t-white">PRITESH BHERE</h1>
+                <h4 class="poppinss" style="font-size: xxx-large">Python Developer|Data Analyst</h4>
+                <a href="{% static 'pdf/django.pdf' %}" target="_blank">
                     <button class="btn poppins">Resume</button></a>
                     
-                <a class="btn live poppins" id="hireme" href=""
-                    target="_blank">Let's Talk</a>
+                <a class="btn live poppins" id="hireme" href="https://www.linkedin.com/in/pritesh-bhere-712213350/" target="_blank">Let's Talk</a>
             </div>
         </div>
         <div class="home-right flex s-center items-center">
             <div class="circle flex s-center items-center" id="mainImage">
-               
                 <img src="{% static 'images/mypic.png'%}" alt="">
             </div>
-
         </div>
     </section>
 
@@ -67,76 +64,62 @@
 
             <div class="about-right flex">
                 <div class="about-content">
-                    <h1 class="t-white m-b-1 poppins">Avanish Patidar</h1>
-                    <p class="t-white poppins">My name is Avanish Patidar.I’m a B.tech student CDGI College in Computer Science & Engineering.
-                        
-                        
-                        I am fresher, I’m passionate about creating quality products that meet all of the customer’s needs, and I love learning new techniques and technologies that allow me to make that happen.While I generally enjoy all of my job, the part I find most draining is estimating projects for customers. I don’t mind doing it, but I enjoy actually creating the software much more.</p>
+                    <h1 class="t-white m-b-1 poppins">Pritesh Bhere</h1>
+                    <p class="t-white poppins">I am Pritesh Ramchandra Bhere, a passionate and detail-oriented B.C.A. student from Tilak Maharashtra Vidyapeeth, Pune, with a strong foundation in Python, web development, data analysis, and the Django framework. I am highly motivated to build a career in software development and data analytics, and I constantly strive to enhance my technical and problem-solving skills.</p>
                     <a class="btn " id="hireme"
-                        href="">Hire Me</a>
+                        href="https://www.linkedin.com/in/pritesh-bhere-712213350/">Hire Me</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Skills Section -->
+   <!-- Skills Section -->
     <section id="skills">
         <h1 class="t-center my-2 t-white f-2">Skills</h1>
         <div class="services-container flex s-around h-50">
-        <div class=" skills-left flex s-center items-center">
-            <img src="{%static 'images/pro.png'%}" alt="">
-        </div>
-
-        <div class="skills-right flex items-center">
-            <div class="skillss-container">
-                <div class="java bar p-relative"><span class="bar-content left t-white"> Core Java</span><span
-                        class="bar-content right-skills t-white">90%</span></div>
-                <div class="html bar p-relative"><span class="bar-content left t-white">HTML</span><span
-                        class="bar-content right-skills t-white">90%</span></div>
-                <div class="css bar p-relative"><span class="bar-content left t-white">CSS</span><span
-                        class="bar-content right-skills t-white">80%</span></div>
-                <div class="js bar p-relative"><span class="bar-content left t-white">JavaScript</span><span
-                        class="bar-content right-skills t-white">60%</span></div>
-                <div class="python bar p-relative"><span class="bar-content left t-white">Python</span><span
-                        class="bar-content right-skills t-white">50%</span></div>
-                <div class="mysql bar p-relative"><span class="bar-content left t-white">MySQL</span><span
-                        class="bar-content right-skills t-white">40%</span></div>        
+            <div class="skills-left flex s-center items-center">
+                <img src="{% static 'images/pro.png' %}" alt="">
             </div>
-        </div>
+
+            <div class="skills-right flex items-center">
+                <div class="skillss-container">
+                    <div class="python bar p-relative"><span class="bar-content left t-white">Python</span><span class="bar-content right-skills t-white">80%</span></div>
+                    <div class="html bar p-relative"><span class="bar-content left t-white">HTML</span><span class="bar-content right-skills t-white">80%</span></div>
+                    <div class="css bar p-relative"><span class="bar-content left t-white">CSS</span><span class="bar-content right-skills t-white">50%</span></div>
+                    <div class="django bar p-relative"><span class="bar-content left t-white">Django</span><span class="bar-content right-skills t-white">70%</span></div>
+                    <div class="mysql bar p-relative"><span class="bar-content left t-white">MySQL</span><span class="bar-content right-skills t-white">60%</span></div>
+                    <div class="powerbi-excel bar p-relative"><span class="bar-content left t-white">Power BI & Excel</span><span class="bar-content right-skills t-white">75%</span></div>
+                </div>
+            </div>
         </div>
     </section>
-
     
 
-    <!-- Projects Section -->
+   <!-- Projects Section -->
     <section id="Projects">
-        <h1 class=" t-center my-2 t-white f-2">Projects</h1>
+        <h1 class="t-center my-2 t-white f-2">Projects</h1>
         <div class="projects-container flex s-center">
             <div class="projects-item flex f-col s-center items-center">
-               
-                <h1 class="t-white poppins">Amazone-clone</h1>
-                <p class="t-white poppins"> This is a functional shopping app intended to be a clone of Amazon and some of its features. This is clone is mixed with my design style and features that I thought would make it look better. This was created with React and incorporates Firebase Cloud firestore , firebase authentication, and accepts payments through Stripe.</p>
+                <h1 class="t-white poppins">Ninja Fight (Game)</h1>
+                <p class="t-white poppins">This is a 2D action game inspired by the Naruto anime series, featuring a combat showdown between Naruto and Sasuke. The game includes dynamic fighting mechanics such as shuriken throws, health potions, and increasing difficulty levels to enhance replay value. It was built using Python and Pygame, and includes intuitive menu navigation, multiple levels, and smooth performance across Windows, Linux, and macOS platforms.</p>
                 <div class="buttons flex s-around">
-                    <a href=""
-                        target="_blanks" class="btn mx-1 m-top">GitHub</a>
-                    <a href="" target="_blanks" class="btn m-top live">Live
-                        Link</a>
+                    <a href="https://github.com/Pritesh2706/Ninja-Fight-Game-" target="_blank" class="btn m-top live">Github</a>
                 </div>
             </div>
             <div class="projects-item flex f-col s-center items-center">
-               
-                <h1 class="t-white poppins">My Portfolio</h1>
-                <p class="t-white poppins">This is My portfolio website which is created with HTML,CSS and Javascript which describe my skill and knowledge.My portfolio website showcases my work in a sleek and minimalist design, allowing the focus to be on the content itself. The layout is uncluttered, making it easy for visitors to navigate and explore my projects.</p>
+                <h1 class="t-white poppins">Portfolio Website</h1>
+                <p class="t-white poppins">This is my portfolio website, built using HTML, CSS, and Django to reflect my growth as a Python Developer and Data Analyst. The site features a vibrant yet organized design that highlights my coding journey, with sections dedicated to showcasing innovative projects and data insights. It offers an intuitive interface with quick access to my GitHub profile and resume, designed to engage visitors and demonstrate my ability to solve real-world problems through technology.</p>
                 <div class="buttons flex s-around">
-                    <a href="" target="_blanks"
-                        class="btn mx-1 m-top">GitHub</a>
-                    <a href="#" target="_blanks" class="btn m-top live">Live
-                        Link</a>
+                    <a href="https://github.com/Pritesh2706/Portfolio-Website" target="_blank" class="btn m-top live">Github</a>
                 </div>
             </div>
-           
-         </div>
-
+            <div class="projects-item flex f-col s-center items-center">
+                <h1 class="t-white poppins">Country Population Visualizations</h1>
+                <p class="t-white poppins">This Power BI project focuses on visualizing and analyzing population data across different countries and continents. Designed with interactivity and clarity in mind, it features a range of charts and dashboards that present key indicators such as total population, growth trends over the years, and comparisons by continent. Built to support insights for demographic research or policy analysis, the report allows users to filter data by year, region, or country. It reflects my skills in data modeling, DAX, and dashboard storytelling, offering a user-friendly interface that turns raw data into meaningful insights.</p>
+                <div class="buttons flex s-around">
+                    <a href="https://github.com/Pritesh2706/Country_Population_Visualisation-Power-BI-" target="_blank" class="btn m-top live">Github</a>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -181,18 +164,18 @@
             <li><a href="#portfolio" class="poppinss">Portfolio</a></li>
         </ul>
         <ul class="flex s-center w-80 font-awesome ">
-            <a href="" target="_blank">
+            <a href="https://www.linkedin.com/in/pritesh-bhere-712213350/" target="_blank">
                 <li><i class="fa-brands fa-linkedin-in"></i></li>
             </a>
-            <a href="" target="_blank">
+            <a href="https://github.com/Pritesh2706" target="_blank">
                 <li><i class="fa-brands fa-github"></i></li>
             </a>
-                <a href="" target="_blank">
+                <a href="https://www.instagram.com/__pritesh.27__/profilecard/?igsh=MTh5eXlscjg0aTA3aA==" target="_blank">
                     <li><i class="fa-brands fa-instagram"></i></li>
             </a>
             
         </ul>
-        <p class="t-center my-2 poppins">&copy; All Rights Reserved - <span class="cpy-white poppins">Error By Night 
+        <p class="t-center my-2 poppins">&copy; All Rights Reserved - <span class="cpy-white poppins">Pritesh Bhere 
                 </span></p>
 
     </footer>
