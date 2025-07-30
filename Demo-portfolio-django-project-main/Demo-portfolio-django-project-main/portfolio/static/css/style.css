@@ -197,6 +197,14 @@ h4 {
     border-radius: 12px;
 }
 
+.libraries {
+    width: 65%; /* Updated to 75% for Power BI & Excel */
+    height: 0.5rem;
+    background-color: #b88c2c; /* Cyan */
+    margin: 1rem 0;
+    border-radius: 12px;
+}
+
 .bar {
     margin: 2rem 0;
     position: relative;
