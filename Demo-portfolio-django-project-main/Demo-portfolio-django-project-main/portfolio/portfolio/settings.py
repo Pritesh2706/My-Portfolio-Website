@@ -103,7 +103,9 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
+CSRF_TRUSTED_ORIGINS = [
+    "https://wesite-production-50b6.up.railway.app",
+]
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
 
