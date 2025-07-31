@@ -198,7 +198,7 @@ h4 {
 }
 
 .libraries {
-    width: 65%; /* Updated to 75% for Power BI & Excel */
+    width: 65%; /* Updated to 75% */
     height: 0.5rem;
     background-color: #b88c2c; /* Cyan */
     margin: 1rem 0;
