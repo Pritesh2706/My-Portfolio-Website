@@ -33,6 +33,7 @@ DEBUG = False
 ALLOWED_HOSTS = ['my-portfolio-website-production-f6e8.up.railway.app', 'portfolio27.6.com']
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
+SECRET_KEY = os.environ.get('SECRET_KEY')
 
 
 
@@ -111,8 +112,10 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+
 CSRF_TRUSTED_ORIGINS = [
-    "https://wesite-production-50b6.up.railway.app",
+    "https://my-portfolio-website-production-f6e8.up.railway.app",
+    "https://portfolio27.6.com",
 ]
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
@@ -134,7 +137,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 MEDIA_URL='/images/'
 
-STATICSTORAGE ='whitenoise.storage.CompressedManifestStaticFilesStorage'
+
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 STATICFILES_DIRS=[
   os.path.join(BASE_DIR, 'static')  
