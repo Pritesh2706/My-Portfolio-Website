@@ -30,8 +30,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 #     ALLOWED_HOSTS = ['my-portfolio-website-production-f6e8.up.railway.app']
 
 DEBUG = False
-SECRET_KEY = os.environ.get('SECRET_KEY', 'your-fallback-key-here')
 ALLOWED_HOSTS = ['my-portfolio-website-production-f6e8.up.railway.app', 'portfolio27.6.com']
+STATIC_URL = '/static/'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 
 
