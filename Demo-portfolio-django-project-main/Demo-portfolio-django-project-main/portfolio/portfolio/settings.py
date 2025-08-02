@@ -27,7 +27,7 @@ SECRET_KEY = 'nv)=_h7=(#+dn7hk2#n17v406lzs#2-)l8kepd#y(u2g)g5_%-'
 DEBUG = True
 
 
-    ALLOWED_HOSTS = ['my-portfolio-website-production-f6e8.up.railway.app', 'portfolio27.6.com']
+    ALLOWED_HOSTS = ['my-portfolio-website-production-f6e8.up.railway.app']
 
 
 
