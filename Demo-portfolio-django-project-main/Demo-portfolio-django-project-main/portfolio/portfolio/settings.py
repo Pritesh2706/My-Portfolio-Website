@@ -30,7 +30,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 #     ALLOWED_HOSTS = ['my-portfolio-website-production-f6e8.up.railway.app']
 
 DEBUG = True
-ALLOWED_HOSTS = ['my-portfolio-website-git-main-pritesh-projects-25-3a7d0.vercel.app', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles_build','static')
@@ -117,7 +117,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 
 CSRF_TRUSTED_ORIGINS = [
-  'my-portfolio-website-git-main-pritesh-projects-25-3a7d0.vercel.app', 'localhost', '127.0.0.1',
+  '*',
 ]
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
