@@ -30,7 +30,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 #     ALLOWED_HOSTS = ['my-portfolio-website-production-f6e8.up.railway.app']
 
 DEBUG = False
-ALLOWED_HOSTS = ['my-portfolio-website-production-f6e8.up.railway.app', 'portfolio27.6.com']
+ALLOWED_HOSTS = ["my-portfolio-website-production-c358.up.railway.app"]
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles'
 SECRET_KEY = os.environ.get('SECRET_KEY')
@@ -114,8 +114,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://my-portfolio-website-production-f6e8.up.railway.app",
-    "https://portfolio27.6.com",
+  " my-portfolio-website-production-c358.up.railway.app",
 ]
 # Internationalization
 # https://docs.djangoproject.com/en/3.1/topics/i18n/
