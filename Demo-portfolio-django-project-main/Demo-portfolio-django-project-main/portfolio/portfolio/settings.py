@@ -30,10 +30,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 #     ALLOWED_HOSTS = ['my-portfolio-website-production-f6e8.up.railway.app']
 
 DEBUG = True
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ['*']
 STATIC_URL = '/static/'
-STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles_build','static')
 SECRET_KEY = os.environ.get('SECRET_KEY')
+MEDIA_URLS= '/media/'
+MEDIA_ROOT=os.path.join(BASE_DIR, 'media')
 
 
 
