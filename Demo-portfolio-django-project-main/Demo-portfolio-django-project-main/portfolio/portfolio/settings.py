@@ -26,9 +26,9 @@ SECRET_KEY = 'nv)=_h7=(#+dn7hk2#n17v406lzs#2-)l8kepd#y(u2g)g5_%-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    "wesite-production-50b6.up.railway.app",
-]
+
+    ALLOWED_HOSTS = ['my-portfolio-website-production-f6e8.up.railway.app', 'portfolio27.6.com']
+
 
 
 # Application definition
