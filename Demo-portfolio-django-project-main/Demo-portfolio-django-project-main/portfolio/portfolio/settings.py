@@ -21,13 +21,17 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'nv)=_h7=(#+dn7hk2#n17v406lzs#2-)l8kepd#y(u2g)g5_%-'
+# SECRET_KEY = 'nv)=_h7=(#+dn7hk2#n17v406lzs#2-)l8kepd#y(u2g)g5_%-'
 
-# SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# # SECURITY WARNING: don't run with debug turned on in production!
+# DEBUG = True
 
 
-    ALLOWED_HOSTS = ['my-portfolio-website-production-f6e8.up.railway.app']
+#     ALLOWED_HOSTS = ['my-portfolio-website-production-f6e8.up.railway.app']
+
+DEBUG = False
+SECRET_KEY = os.environ.get('SECRET_KEY', 'your-fallback-key-here')
+ALLOWED_HOSTS = ['my-portfolio-website-production-f6e8.up.railway.app', 'portfolio27.6.com']
 
 
 
